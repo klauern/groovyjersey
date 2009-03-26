@@ -9,9 +9,9 @@ Well, I have done just that.
 
 To get this project working, perform the minimum steps in Maven:
 
-$ mvn groovy:generateStubs
-$ mvn groovy:compile
-$ mvn install
+  1. $ mvn groovy:generateStubs
+  2. $ mvn groovy:compile
+  3. $ mvn install
 
 and you will have a packaged war that should work great.
 
