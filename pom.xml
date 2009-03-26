@@ -126,6 +126,6 @@ powerful Jersey library.
     </repositories>
     <properties>
         <netbeans.hint.deploy.server>gfv3</netbeans.hint.deploy.server>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.sourceEncoding>MacRoman</project.build.sourceEncoding>
     </properties>
 </project>
