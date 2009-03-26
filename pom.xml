@@ -50,7 +50,7 @@
         <dependency>
             <groupId>com.sun.jersey</groupId>
             <artifactId>jersey-server</artifactId>
-            <version>1.0.3-SNAPSHOT</version>
+            <version>1.0.2</version>
         </dependency>
     </dependencies>
 
@@ -104,19 +104,22 @@
         </plugins>
         <finalName>GroovyJersey</finalName>
     </build>
-    <description>My 50th attempt to try to integrate Groovy into a .war application.
-
-Specifically, I am intending to add Jersey support that will give me
-an opportunity to use Groovy to test RESTful resources with the
-powerful Jersey library.
+    <description>
+        My 50th attempt to try to integrate Groovy into a .war application.
+        
+        Specifically, I am intending to add Jersey support that will give me
+        an opportunity to use Groovy to test RESTful resources with the
+        powerful Jersey library.
     </description>
     <repositories>
+        <!--
         <repository>
             <url>http://download.java.net/maven/1</url>
             <id>restlib</id>
             <layout>legacy</layout>
             <name>Repository for library Library[restlib]</name>
         </repository>
+        -->
         <repository>
             <url>http://download.java.net/maven/2</url>
             <id>restlib</id>
