@@ -34,7 +34,7 @@
         <dependency>
             <groupId>org.codehaus.groovy.maven</groupId>
             <artifactId>gmaven-mojo</artifactId>
-            <version>1.0-rc-5</version>
+            <version>1.0</version>
         </dependency>
 
         <dependency>
